@@ -1,0 +1,14 @@
+name: egg
+version: '${project.version}'
+main: net.sashegdev.egg.Egg
+api-version: '1.20'
+description: Плагин, дающий некоторым обесцененным предметам новые свойства и вторую жизнь!
+author: SashegDev
+load: STARTUP
+commands:
+  got:
+    description: Перезагрузка сервера обходя назойливый Paper-овский /reload confirm
+    usage: /<command>
+  helpme:
+    description: Мммм... об этой команде ничего не известно.
+    usage: /<command>
