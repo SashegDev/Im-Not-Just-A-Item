@@ -7,6 +7,8 @@ import org.bukkit.potion.PotionEffectType;
 import org.bukkit.scheduler.BukkitRunnable;
 
 public class crug extends BukkitRunnable {
+    //Решил не трогать)
+
     @Override
     public void run() {
         for (Player player : Bukkit.getOnlinePlayers()) {
